@@ -1,0 +1,733 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+   <meta charset="utf-8">
+   <title>DENS | X2 GENERATOR</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="apple-touch-icon" href="asset/img/favicon.jpg">
+   <link rel="icon" href="asset/img/favicon.jpg">
+   <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+   <link rel="stylesheet" href="asset/css/style.css">
+   <link rel="stylesheet" href="asset/css/responsive.css">
+   <!-- this is for mordanizar js link -->
+   <script src="asset/js/vendor/modernizr-3.6.0.min.js"></script>
+</head>
+
+<body>
+   <!-- start header area -->
+   <header id="headerTop">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12">
+               <div class="headerTopMainContaier">
+                  <div class="row align-items-center">
+                     <div class="col-lg-5">
+                        <div class="logoArea">
+                           <a href="index.html">
+                              <img class="img-fluid" src="./asset/img/logo.png" alt="DENS Logo">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-lg-7">
+                        <div class="headerTitle text-right">
+                           <h1>X2 GENERATOR</h1>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header area -->
+
+   <!-- start result area -->
+   <section id="resultsArea">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12">
+               <div class="resultMainContainer">
+                  <div class="row">
+                     <div class="col-12">
+                        <div class="resultsAreaTop">
+                           <div class="row">
+                              <div class="col-lg-6">
+                                 <div class="leftTitile">
+                                    <h3>Total results </h3>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="rightTabBtn text-right">
+                                    <ul class="nav" id="resultsTab" role="tablist">
+                                       <li><a class="active" id="alwaysTab-tab" data-toggle="tab" href="#alwaysTab" role="tab" aria-controls="alwaysTab" aria-selected="true">Always</a></li>
+                                       <li><a id="nav-profile-tab" data-toggle="tab" href="#last24Tab" role="tab" aria-controls="last24Tab" aria-selected="false">Last 24h</a></li>
+                                       <span class="animationPanel"></span>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- start result tab content -->
+                        <div class="resultsAreaTanContent" id="nav-tabContent">
+                           <div class="tab-content" id="nav-tabContent">
+                              <div class="tab-pane fade show active text-white" id="alwaysTab" role="tabpanel" aria-labelledby="alwaysTab-tab">
+                                 <div class="resultsTabContentMain">
+                                    <div class="row">
+                                       <div class="col-lg-3">
+                                          <div class="item">
+                                             <div class="icon">
+                                                <p>CO<span>2</span></p>
+                                             </div>
+                                             <div class="content">
+                                                <p>CO2 saved</p>
+                                                <h4>340 ton</h4>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-3">
+                                          <div class="item">
+                                             <div class="icon">
+                                                <p>NO<span>x</span></p>
+                                             </div>
+                                             <div class="content">
+                                                <p>NOx saved</p>
+                                                <h4>1,4 kg</h4>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-3">
+                                          <div class="item">
+                                             <div class="icon">
+                                                <p>PM</p>
+                                             </div>
+                                             <div class="content">
+                                                <p>PM saved</p>
+                                                <h4>500 g</h4>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-3">
+                                          <div class="item itemLast">
+                                             <div class="icon">
+                                                <img class="img-fluid" src="./asset/img/icons/1.png" alt="power icons image">
+                                             </div>
+                                             <div class="content">
+                                                <p>Power produced</p>
+                                                <h4>700 kWh</h4>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade text-white" id="last24Tab" role="tabpanel" aria-labelledby="last24Tab-tab">
+                                 <h3 class="text-white">
+                                    <div class="resultsTabContentMain">
+                                       <div class="row">
+                                          <div class="col-lg-3">
+                                             <div class="item">
+                                                <div class="icon">
+                                                   <p>CO<span>2</span></p>
+                                                </div>
+                                                <div class="content">
+                                                   <p>CO2 saved</p>
+                                                   <h4>1.3 ton</h4>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-3">
+                                             <div class="item">
+                                                <div class="icon">
+                                                   <p>NO<span>x</span></p>
+                                                </div>
+                                                <div class="content">
+                                                   <p>NOx saved</p>
+                                                   <h4>123 g</h4>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-3">
+                                             <div class="item">
+                                                <div class="icon">
+                                                   <p>PM</p>
+                                                </div>
+                                                <div class="content">
+                                                   <p>PM saved</p>
+                                                   <h4>50 g</h4>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-3">
+                                             <div class="item itemLast">
+                                                <div class="icon">
+                                                   <img class="img-fluid" src="./asset/img/icons/1.png" alt="power icons image">
+                                                </div>
+                                                <div class="content">
+                                                   <p>Power produced</p>
+                                                   <h4>64 kWh</h4>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </h3>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- end result tab content -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end result area -->
+  
+   <!-- start energy flow area -->
+   <section id="energyGflowArea">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12">
+               <div class="energyGflowContainer">
+                  <div class="topArea">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="leftTititle">
+                              <h3>Energy flow</h3>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="rightTabBtn text-right">
+                              <ul class="nav" id="flowsTab" role="tablist">
+                                 <li>
+                                    <a class="active" id="flow1" data-toggle="tab" href="#flowTab1" role="tab" aria-controls="flow1" aria-selected="true">Flow</a>
+                                 </li>
+                                 <li>
+                                    <a id="graphics-tab" data-toggle="tab" href="#graphics" role="tab" aria-controls="graphics-tab" aria-selected="false">Graphs</a>
+                                 </li>
+                                 <span class="animationPanel2"></span>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="enegyFlowTabContent">
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="flowTab1" role="tabpanel" aria-labelledby="alwaysTab-tab">
+                           <div class="flowTabContent">
+                              <div class="row">
+                                 <div class="col-lg-2">
+                                    <div class="leftTnk text-center">
+                                       <div class="svgGraph">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="204" height="242.859" viewBox="0 0 204 242.859"><g transform="translate(-79 -398)"><g transform="translate(107 408)" fill="none" stroke="#fff" stroke-width="4"><rect width="53" height="21" stroke="none"/><rect x="2" y="2" width="49" height="17" fill="none"/></g><path d="M4529.3-21805.027s-6.38,4.273-11.867-.357-25.373-6.285-55.546,0-33.945,9.262-65.833,0-65.855-.518-65.855-.518l-.5,34.584s1.427,22.191,18.784,25.979,138.7,1.629,155.5,1.141,25.318-25.162,25.318-25.162Z" transform="translate(-4248.5 22382)" fill="#e5a46c" stroke="#fff" stroke-width="4"/><g transform="translate(79 425)" fill="none"><path d="M30,0H174a30,30,0,0,1,30,30V185c-2.341,12.316-13.431,30-30,30H30A30,30,0,0,1,0,185V30A30,30,0,0,1,30,0Z" stroke="none"/><path d="M 30 4 C 26.48825073242188 4 23.08369445800781 4.686874389648438 19.88087463378906 6.04156494140625 C 16.7852783203125 7.350875854492188 14.00431823730469 9.226150512695313 11.61521911621094 11.61521911621094 C 9.226150512695313 14.00431823730469 7.350875854492188 16.7852783203125 6.04156494140625 19.88087463378906 C 4.686874389648438 23.08369445800781 4 26.48825073242188 4 30 L 4 185 C 4 188.5117492675781 4.686874389648438 191.9163208007813 6.04156494140625 195.1191253662109 C 7.350875854492188 198.2147216796875 9.226150512695313 200.9956817626953 11.61521911621094 203.3847808837891 C 14.00431823730469 205.7738494873047 16.7852783203125 207.6491241455078 19.88087463378906 208.9584350585938 C 23.08369445800781 210.3131256103516 26.48825073242188 211 30 211 L 174 211 C 181.8981018066406 211 187.7699737548828 206.1098480224609 191.3050689697266 202.0075073242188 C 193.5087127685547 199.4502258300781 195.4949035644531 196.3880310058594 197.0489044189453 193.1519317626953 C 198.4283447265625 190.2793579101563 199.4451599121094 187.3346405029297 200 184.6103820800781 L 200 30 C 200 26.48825073242188 199.3131256103516 23.08369445800781 197.9584350585938 19.88087463378906 C 196.6491241455078 16.7852783203125 194.7738494873047 14.00431823730469 192.3847808837891 11.61521911621094 C 189.9956817626953 9.226150512695313 187.2147216796875 7.350875854492188 184.1191253662109 6.04156494140625 C 180.9163208007813 4.686874389648438 177.5117492675781 4 174 4 L 30 4 M 30 0 L 174 0 C 190.5685272216797 0 204 13.43147277832031 204 30 L 204 185 C 201.65869140625 197.31640625 190.5685272216797 215 174 215 L 30 215 C 13.43147277832031 215 0 201.5685272216797 0 185 L 0 30 C 0 13.43147277832031 13.43147277832031 0 30 0 Z" stroke="none" fill="#fff"/></g><g transform="translate(95 398)" fill="none" stroke="#fff" stroke-width="4"><rect width="78" height="14" stroke="none"/><rect x="2" y="2" width="74" height="10" fill="none"/></g><text transform="translate(155 616)" fill="#fff" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="0.02em"><tspan x="0" y="0">20%</tspan></text></g></svg>
+                                       </div>
+                                       <h4>TANK</h4>
+                                       <p>Action required: Please fill the tank</p>
+                                       <span class="lineBar"></span>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-7 mx-auto">
+                                    <div class="middleFlow">
+                                       <div class="row align-items-center">
+                                          <div class="col-lg-4">
+                                             <div class="middleFlowItem text-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="180" height="250" viewBox="0 0 156 242">
+                                                   <g id="Group_101" data-name="Group 101" transform="translate(-388 -398)">
+                                                     <g id="Ellipse_98" data-name="Ellipse 98" transform="translate(442 620)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <ellipse cx="4" cy="3.5" rx="4" ry="3.5" stroke="none"/>
+                                                       <ellipse cx="4" cy="3.5" rx="3.5" ry="3" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_112" data-name="Ellipse 112" transform="translate(485 615)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+                                                       <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_102" data-name="Ellipse 102" transform="translate(465 613)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_113" data-name="Ellipse 113" transform="translate(451 605)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+                                                       <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_97" data-name="Ellipse 97" transform="translate(495 601)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <ellipse cx="4" cy="3.5" rx="4" ry="3.5" stroke="none"/>
+                                                       <ellipse cx="4" cy="3.5" rx="3.5" ry="3" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_103" data-name="Ellipse 103" transform="translate(432 598)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_99" data-name="Ellipse 99" transform="translate(459 593)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <ellipse cx="4" cy="3.5" rx="4" ry="3.5" stroke="none"/>
+                                                       <ellipse cx="4" cy="3.5" rx="3.5" ry="3" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_100" data-name="Ellipse 100" transform="translate(425 590)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <ellipse cx="4" cy="3.5" rx="4" ry="3.5" stroke="none"/>
+                                                       <ellipse cx="4" cy="3.5" rx="3.5" ry="3" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_111" data-name="Ellipse 111" transform="translate(477 590)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+                                                       <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_110" data-name="Ellipse 110" transform="translate(445 584)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+                                                       <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_101" data-name="Ellipse 101" transform="translate(493 572)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_95" data-name="Ellipse 95" transform="translate(444 569)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <ellipse cx="4" cy="3.5" rx="4" ry="3.5" stroke="none"/>
+                                                       <ellipse cx="4" cy="3.5" rx="3.5" ry="3" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_104" data-name="Ellipse 104" transform="translate(463 568)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_105" data-name="Ellipse 105" transform="translate(419 561)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_108" data-name="Ellipse 108" transform="translate(484 557)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+                                                       <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_93" data-name="Ellipse 93" transform="translate(470 553)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+                                                       <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_109" data-name="Ellipse 109" transform="translate(448 550)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+                                                       <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_107" data-name="Ellipse 107" transform="translate(499 549)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+                                                       <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_91" data-name="Ellipse 91" transform="translate(433 547)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <ellipse cx="4" cy="3.5" rx="4" ry="3.5" stroke="none"/>
+                                                       <ellipse cx="4" cy="3.5" rx="3.5" ry="3" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_96" data-name="Ellipse 96" transform="translate(492 538)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <ellipse cx="4" cy="3.5" rx="4" ry="3.5" stroke="none"/>
+                                                       <ellipse cx="4" cy="3.5" rx="3.5" ry="3" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_94" data-name="Ellipse 94" transform="translate(442 538)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+                                                       <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_90" data-name="Ellipse 90" transform="translate(418 528)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_106" data-name="Ellipse 106" transform="translate(472 528)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_92" data-name="Ellipse 92" transform="translate(451 524)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <path id="Path_382" data-name="Path 382" d="M4327.5-21804.561s32.732-11.117,61.195,0,24.559,7.543,51.491,0" transform="translate(-3917.219 22327)" fill="none" stroke="#fff" stroke-width="4"/>
+                                                     <g id="Ellipse_117" data-name="Ellipse 117" transform="translate(498 515)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_116" data-name="Ellipse 116" transform="translate(470 514)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="5" cy="5" r="5" stroke="none"/>
+                                                       <circle cx="5" cy="5" r="4.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_118" data-name="Ellipse 118" transform="translate(485 507)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <ellipse cx="4.5" cy="4" rx="4.5" ry="4" stroke="none"/>
+                                                       <ellipse cx="4.5" cy="4" rx="4" ry="3.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_114" data-name="Ellipse 114" transform="translate(428 505)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Ellipse_115" data-name="Ellipse 115" transform="translate(454 496)" fill="none" stroke="#fff" stroke-width="1">
+                                                       <circle cx="7" cy="7" r="7" stroke="none"/>
+                                                       <circle cx="7" cy="7" r="6.5" fill="none"/>
+                                                     </g>
+                                                     <g id="Rectangle_324" data-name="Rectangle 324" transform="translate(409 438)" fill="none" stroke="#fff" stroke-width="4">
+                                                       <path d="M1,0H115a0,0,0,0,1,0,0V155a47,47,0,0,1-47,47H47A47,47,0,0,1,0,155V1A1,1,0,0,1,1,0Z" stroke="none"/>
+                                                       <path d="M3,2H111a2,2,0,0,1,2,2V155a45,45,0,0,1-45,45H47A45,45,0,0,1,2,155V3A1,1,0,0,1,3,2Z" fill="none"/>
+                                                     </g>
+                                                     <g id="Rectangle_329" data-name="Rectangle 329" transform="translate(388 398)" fill="none" stroke="#fff" stroke-width="4">
+                                                       <rect width="156" height="44" rx="10" stroke="none"/>
+                                                       <rect x="2" y="2" width="152" height="40" rx="8" fill="none"/>
+                                                     </g>
+                                                   </g>
+                                                 </svg>
+                                                 <h4>REFORMER</h4>
+                                                 <span class="lineBar2"></span>
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-4">
+                                             <div class="middleFlowItem text-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="83" height="242" viewBox="0 0 83 242">
+                                                   <g id="Group_102" data-name="Group 102" transform="translate(-637 -398)">
+                                                     <line id="Line_121" data-name="Line 121" x2="80" transform="translate(638.5 634.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_122" data-name="Line 122" x2="80" transform="translate(637.5 622.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_123" data-name="Line 123" x2="80" transform="translate(637.5 619.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_124" data-name="Line 124" x2="80" transform="translate(637.5 616.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_125" data-name="Line 125" x2="80" transform="translate(637.5 613.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_126" data-name="Line 126" x2="80" transform="translate(637.5 610.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_127" data-name="Line 127" x2="80" transform="translate(637.5 607.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_128" data-name="Line 128" x2="80" transform="translate(637.5 604.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_139" data-name="Line 139" x2="80" transform="translate(638.5 601.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_138" data-name="Line 138" x2="80" transform="translate(638.5 598.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_137" data-name="Line 137" x2="80" transform="translate(638.5 595.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_136" data-name="Line 136" x2="80" transform="translate(638.5 592.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_135" data-name="Line 135" x2="80" transform="translate(638.5 589.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_133" data-name="Line 133" x2="80" transform="translate(638.5 586.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_134" data-name="Line 134" x2="80" transform="translate(638.5 583.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_132" data-name="Line 132" x2="80" transform="translate(638.5 580.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_129" data-name="Line 129" x2="80" transform="translate(638.5 577.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_130" data-name="Line 130" x2="80" transform="translate(638.5 574.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_131" data-name="Line 131" x2="80" transform="translate(638.5 571.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_150" data-name="Line 150" x2="80" transform="translate(637.5 568.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_149" data-name="Line 149" x2="80" transform="translate(637.5 565.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_148" data-name="Line 148" x2="80" transform="translate(637.5 562.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_147" data-name="Line 147" x2="80" transform="translate(637.5 559.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_146" data-name="Line 146" x2="80" transform="translate(637.5 556.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_144" data-name="Line 144" x2="80" transform="translate(637.5 553.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_145" data-name="Line 145" x2="80" transform="translate(637.5 550.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_143" data-name="Line 143" x2="80" transform="translate(637.5 547.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_140" data-name="Line 140" x2="80" transform="translate(637.5 544.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_141" data-name="Line 141" x2="80" transform="translate(637.5 541.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_142" data-name="Line 142" x2="80" transform="translate(637.5 538.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_161" data-name="Line 161" x2="80" transform="translate(639.5 535.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_160" data-name="Line 160" x2="80" transform="translate(639.5 532.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_159" data-name="Line 159" x2="80" transform="translate(639.5 529.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_158" data-name="Line 158" x2="80" transform="translate(639.5 526.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_157" data-name="Line 157" x2="80" transform="translate(639.5 523.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_155" data-name="Line 155" x2="80" transform="translate(639.5 520.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_156" data-name="Line 156" x2="80" transform="translate(639.5 517.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_154" data-name="Line 154" x2="80" transform="translate(639.5 514.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_151" data-name="Line 151" x2="80" transform="translate(639.5 511.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_152" data-name="Line 152" x2="80" transform="translate(639.5 508.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_153" data-name="Line 153" x2="80" transform="translate(639.5 505.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_172" data-name="Line 172" x2="80" transform="translate(638.5 502.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_171" data-name="Line 171" x2="80" transform="translate(638.5 499.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_170" data-name="Line 170" x2="80" transform="translate(638.5 496.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_169" data-name="Line 169" x2="80" transform="translate(638.5 493.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_168" data-name="Line 168" x2="80" transform="translate(638.5 490.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_166" data-name="Line 166" x2="80" transform="translate(638.5 487.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_167" data-name="Line 167" x2="80" transform="translate(638.5 484.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_165" data-name="Line 165" x2="80" transform="translate(638.5 481.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_162" data-name="Line 162" x2="80" transform="translate(638.5 478.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_163" data-name="Line 163" x2="80" transform="translate(638.5 475.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_164" data-name="Line 164" x2="80" transform="translate(638.5 472.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_183" data-name="Line 183" x2="80" transform="translate(638.5 469.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_182" data-name="Line 182" x2="80" transform="translate(638.5 466.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_181" data-name="Line 181" x2="80" transform="translate(638.5 463.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_180" data-name="Line 180" x2="80" transform="translate(638.5 460.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_179" data-name="Line 179" x2="80" transform="translate(638.5 457.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_177" data-name="Line 177" x2="80" transform="translate(638.5 454.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_178" data-name="Line 178" x2="80" transform="translate(638.5 451.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_176" data-name="Line 176" x2="80" transform="translate(638.5 448.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_173" data-name="Line 173" x2="80" transform="translate(638.5 445.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_174" data-name="Line 174" x2="80" transform="translate(638.5 442.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_175" data-name="Line 175" x2="80" transform="translate(638.5 439.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_194" data-name="Line 194" x2="80" transform="translate(639.5 436.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_193" data-name="Line 193" x2="80" transform="translate(639.5 433.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_192" data-name="Line 192" x2="80" transform="translate(639.5 430.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_191" data-name="Line 191" x2="80" transform="translate(639.5 427.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_190" data-name="Line 190" x2="80" transform="translate(639.5 424.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_188" data-name="Line 188" x2="80" transform="translate(639.5 421.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_189" data-name="Line 189" x2="80" transform="translate(639.5 418.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_187" data-name="Line 187" x2="80" transform="translate(639.5 415.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_184" data-name="Line 184" x2="80" transform="translate(639.5 412.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_185" data-name="Line 185" x2="80" transform="translate(639.5 409.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_186" data-name="Line 186" x2="80" transform="translate(637.5 406.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_195" data-name="Line 195" x2="80" transform="translate(638.5 403.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <g id="Rectangle_323" data-name="Rectangle 323" transform="translate(637 398)" fill="none" stroke="#fff" stroke-width="4">
+                                                       <rect width="83" height="242" rx="8" stroke="none"/>
+                                                       <rect x="2" y="2" width="79" height="238" rx="6" fill="none"/>
+                                                     </g>
+                                                     <line id="Line_120" data-name="Line 120" x2="80" transform="translate(637.5 625.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_119" data-name="Line 119" x2="80" transform="translate(637.5 631.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                     <line id="Line_118" data-name="Line 118" x2="80" transform="translate(637.5 628.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                                                   </g>
+                                                 </svg>
+                                                <h4>FUEL CELL</h4>
+                                                <span class="lineBar3"></span>
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-4">
+                                             <div class="middleFlowItem text-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="125" height="242" viewBox="0 0 125 242">
+                                                   <g id="Group_103" data-name="Group 103" transform="translate(-827 -398)">
+                                                     <g id="Rectangle_370" data-name="Rectangle 370" transform="translate(827 488)" fill="#86c28c" stroke="#fff" stroke-width="4">
+                                                       <path d="M0,0H125a0,0,0,0,1,0,0V140a12,12,0,0,1-12,12H12A12,12,0,0,1,0,140V0A0,0,0,0,1,0,0Z" stroke="none"/>
+                                                       <path d="M4,2H121a2,2,0,0,1,2,2V140a10,10,0,0,1-10,10H12A10,10,0,0,1,2,140V4A2,2,0,0,1,4,2Z" fill="none"/>
+                                                     </g>
+                                                     <g id="Rectangle_322" data-name="Rectangle 322" transform="translate(827 414)" fill="none" stroke="#fff" stroke-width="4">
+                                                       <rect width="125" height="226" rx="12" stroke="none"/>
+                                                       <rect x="2" y="2" width="121" height="222" rx="10" fill="none"/>
+                                                     </g>
+                                                     <g id="Rectangle_359" data-name="Rectangle 359" transform="translate(842 398)" fill="none" stroke="#fff" stroke-width="4">
+                                                       <path d="M9,0H19a9,9,0,0,1,9,9V19a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V9A9,9,0,0,1,9,0Z" stroke="none"/>
+                                                       <path d="M9,2H19a7,7,0,0,1,7,7v8a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V9A7,7,0,0,1,9,2Z" fill="none"/>
+                                                     </g>
+                                                     <g id="Rectangle_360" data-name="Rectangle 360" transform="translate(906 398)" fill="none" stroke="#fff" stroke-width="4">
+                                                       <path d="M9,0H19a9,9,0,0,1,9,9V19a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V9A9,9,0,0,1,9,0Z" stroke="none"/>
+                                                       <path d="M9,2H19a7,7,0,0,1,7,7v8a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V9A7,7,0,0,1,9,2Z" fill="none"/>
+                                                     </g>
+                                                     <text id="_60_" data-name="60%" transform="translate(864 567)" fill="#fff" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="0.02em"><tspan x="0" y="0">60%</tspan></text>
+                                                   </g>
+                                                 </svg>
+                                                <h4>BATTERY</h4>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-2">
+                                    <div class="rightLastItem">
+                                       <div class="svgGraph">
+                                          <div class="kwmetter">
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="230" height="230" viewBox="0 0 170.61 192.61" style="transform: rotate(-98deg);">
+                                                <g id="Group_101" data-name="Group 101" transform="translate(-1017.769 -403.88)">
+                                                <g id="Ellipse_124" data-name="Ellipse 124" transform="translate(1088.269 596.49) rotate(-120)" fill="none" stroke="#313b32" stroke-width="20" stroke-dasharray="275 242">
+                                                   <circle cx="70.5" cy="70.5" r="70.5" stroke="none"/>
+                                                   <circle cx="70.5" cy="70.5" r="60.5" fill="none"/>
+                                                </g>
+                                                <g id="Ellipse_123" data-name="Ellipse 123" transform="translate(1088.269 596.489) rotate(-120)" fill="none" stroke="#86c28c" stroke-width="20" stroke-dasharray="187 242">
+                                                   <circle cx="70.5" cy="70.5" r="70.5" stroke="none"/>
+                                                   <circle cx="70.5" cy="70.5" r="60.5" fill="none"/>
+                                                </g>
+                                                </g>
+                                             </svg>
+                                             <h4>16 kW</h4>
+                                          </div>
+                                          <div class="plug text-center">
+                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 66">
+                                                <g id="Group_101" data-name="Group 101" transform="translate(-1046 -553)">
+                                                <rect id="Rectangle_326" data-name="Rectangle 326" width="27" height="8" transform="translate(1105 595)" fill="#fff"/>
+                                                <rect id="Rectangle_327" data-name="Rectangle 327" width="47" height="8" transform="translate(1176 581)" fill="#fff"/>
+                                                <rect id="Rectangle_325" data-name="Rectangle 325" width="27" height="8" transform="translate(1105 567)" fill="#fff"/>
+                                                <g id="Rectangle_320" data-name="Rectangle 320" transform="translate(1046 619) rotate(-90)" fill="none" stroke="#fff" stroke-width="4">
+                                                   <path d="M18,0H48A18,18,0,0,1,66,18V44a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V18A18,18,0,0,1,18,0Z" stroke="none"/>
+                                                   <path d="M18,2H48A16,16,0,0,1,64,18V40a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V18A16,16,0,0,1,18,2Z" fill="none"/>
+                                                </g>
+                                                <g id="Rectangle_321" data-name="Rectangle 321" transform="translate(1176 553) rotate(90)" fill="none" stroke="#fff" stroke-width="4">
+                                                   <path d="M18,0H48A18,18,0,0,1,66,18V47a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V18A18,18,0,0,1,18,0Z" stroke="none"/>
+                                                   <path d="M18,2H48A16,16,0,0,1,64,18V43a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V18A16,16,0,0,1,18,2Z" fill="none"/>
+                                                </g>
+                                                </g>
+                                             </svg>
+                                             <h4>OUTPUT</h4>
+                                          </div>
+                                       </div>
+                                       <span class="lineBar4"></span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="graphics" role="tabpanel" aria-labelledby="last24Tab-tab">
+                           <div class="flowTabContent2">
+                              <div class="row">
+                                 <div class="col-lg-3">
+                                    <div class="flowTabItem2Content">
+                                       <div class="topTitle">
+                                          <div class="row align-items-end">
+                                             <div class="col-lg-7">
+                                                <div class="left">
+                                                   <h5>Tank level</h5>
+                                                   <h3>50 liter</h3>
+                                                </div>
+                                             </div>
+                                             <div class="col-lg-5">
+                                                <div class="right text-right">
+                                                   <p>WARNING</p>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="metterIndicator text-center">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165.68 120">
+                                             <g id="Group_101" data-name="Group 101" transform="translate(-116.32 -479)">
+                                               <g id="Group_96" data-name="Group 96" transform="translate(-300 15)">
+                                                 <rect id="Rectangle_350" data-name="Rectangle 350" width="18" height="7" transform="translate(503 464) rotate(90)" fill="#86c28c"/>
+                                                 <rect id="Rectangle_351" data-name="Rectangle 351" width="18.049" height="6.518" transform="matrix(-0.259, 0.966, -0.966, -0.259, 532.195, 468.158)" fill="#86c28c"/>
+                                                 <rect id="Rectangle_352" data-name="Rectangle 352" width="18.049" height="6.518" transform="translate(559.828 481.137) rotate(122)" fill="#86c28c"/>
+                                                 <rect id="Rectangle_353" data-name="Rectangle 353" width="17.548" height="6.518" transform="translate(582 498.979) rotate(132)" fill="#86c28c"/>
+                                                 <rect id="Rectangle_354" data-name="Rectangle 354" width="18.049" height="6.518" transform="matrix(0.259, 0.966, -0.966, 0.259, 473.376, 466.471)" fill="#86c28c"/>
+                                                 <rect id="Rectangle_355" data-name="Rectangle 355" width="18.049" height="6.518" transform="matrix(0.485, 0.875, -0.875, 0.485, 445.971, 477.59)" fill="#e5a46c"/>
+                                                 <rect id="Rectangle_356" data-name="Rectangle 356" width="18.049" height="6.518" transform="matrix(0.695, 0.719, -0.719, 0.695, 421.009, 494.352)" fill="#d75948"/>
+                                                 <circle id="Ellipse_120" data-name="Ellipse 120" cx="14" cy="14" r="14" transform="translate(486 556)" fill="#fff"/>
+                                                 <path id="Path_389" data-name="Path 389" d="M9051.568-19734.645l-58-55.988,2.68-3.059,62.217,51.6Z" transform="translate(-13647.172 17043.932) rotate(16)" fill="#fff"/>
+                                               </g>
+                                             </g>
+                                           </svg>                                           
+                                       </div>
+                                    </div>
+                                    <div class="warnignText">
+                                       <p>Action required: Please fill the tank</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="flowTabItem2Content">
+                                       <div class="topTitle">
+                                          <div class="row align-items-end">
+                                             <div class="col-lg-12">
+                                                <div class="left">
+                                                   <h5>Battery level</h5>
+                                                   <h3>60%</h3>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="batteryIndicator text-center">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 131">
+                                             <g id="Group_101" data-name="Group 101" transform="translate(-461 -468)">
+                                               <g id="Rectangle_361" data-name="Rectangle 361" transform="translate(461 478)" fill="none" stroke="#fff" stroke-width="3">
+                                                 <rect width="81" height="121" rx="12" stroke="none"/>
+                                                 <rect x="1.5" y="1.5" width="78" height="118" rx="10.5" fill="none"/>
+                                               </g>
+                                               <g id="Rectangle_366" data-name="Rectangle 366" transform="translate(476 468)" fill="none" stroke="#fff" stroke-width="3">
+                                                 <path d="M6,0h4a6,6,0,0,1,6,6v7a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" stroke="none"/>
+                                                 <path d="M6,1.5h4A4.5,4.5,0,0,1,14.5,6v4A1.5,1.5,0,0,1,13,11.5H3A1.5,1.5,0,0,1,1.5,10V6A4.5,4.5,0,0,1,6,1.5Z" fill="none"/>
+                                               </g>
+                                               <g id="Rectangle_367" data-name="Rectangle 367" transform="translate(512 468)" fill="none" stroke="#fff" stroke-width="3">
+                                                 <path d="M6,0h4a6,6,0,0,1,6,6v7a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" stroke="none"/>
+                                                 <path d="M6,1.5h4A4.5,4.5,0,0,1,14.5,6v4A1.5,1.5,0,0,1,13,11.5H3A1.5,1.5,0,0,1,1.5,10V6A4.5,4.5,0,0,1,6,1.5Z" fill="none"/>
+                                               </g>
+                                               <g id="Rectangle_364" data-name="Rectangle 364" transform="translate(461 517)" fill="#86c28c" stroke="#fff" stroke-width="3">
+                                                 <path d="M0,0H81a0,0,0,0,1,0,0V70A12,12,0,0,1,69,82H12A12,12,0,0,1,0,70V0A0,0,0,0,1,0,0Z" stroke="none"/>
+                                                 <path d="M3,1.5H78A1.5,1.5,0,0,1,79.5,3V70A10.5,10.5,0,0,1,69,80.5H12A10.5,10.5,0,0,1,1.5,70V3A1.5,1.5,0,0,1,3,1.5Z" fill="none"/>
+                                               </g>
+                                               <text id="_60_" data-name="60%" transform="translate(476 562)" fill="#fff" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="0.02em"><tspan x="0" y="0">60%</tspan></text>
+                                             </g>
+                                           </svg>
+                                           
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="flowTabItem2Content">
+                                       <div class="topTitle">
+                                          <div class="row align-items-end">
+                                             <div class="col-lg-12">
+                                                <div class="left">
+                                                   <h5>Output</h5>
+                                                   <h3>18 kW</h3>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="kwMetterIndicator text-center">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="143.377" height="143.377" viewBox="0 0 143.377 143.377">
+                                             <defs>
+                                             <style>
+                                                .cls-1, .cls-3, .cls-4 {
+                                                   fill: #fff;
+                                                }
+                                          
+                                                .cls-1 {
+                                                   font-size: 41px;
+                                                   font-family: Montserrat-Medium, Montserrat;
+                                                   font-weight: 500;
+                                                }
+                                          
+                                                .cls-1, .cls-4 {
+                                                   letter-spacing: 0.02em;
+                                                }
+                                          
+                                                .cls-2, .cls-6 {
+                                                   fill: none;
+                                                }
+                                          
+                                                .cls-2 {
+                                                   stroke: #86c28c;
+                                                   stroke-width: 10px;
+                                                   stroke-dasharray: 300 242;
+                                                }
+                                          
+                                                .cls-4 {
+                                                   font-size: 12px;
+                                                   font-family: Montserrat-Light, Montserrat;
+                                                   font-weight: 300;
+                                                }
+                                          
+                                                .cls-5 {
+                                                   stroke: none;
+                                                }
+                                             </style>
+                                             </defs>
+                                             <g id="Group_101" data-name="Group 101" transform="translate(-470.463 870.793) rotate(-90)">
+                                             <text id="_18" data-name="18" class="cls-1" transform="translate(795.82 515.43) rotate(90)"><tspan x="0" y="0">18</tspan></text>
+                                             <g id="Ellipse_122" data-name="Ellipse 122" class="cls-2" transform="translate(870.793 611.443) rotate(179.026)">
+                                                <circle class="cls-5" cx="70.5" cy="70.5" r="70.5"/>
+                                                <circle class="cls-6" cx="70.5" cy="70.5" r="65.5"/>
+                                             </g>
+                                             <path id="Polygon_1" data-name="Polygon 1" class="cls-3" d="M781.82,538.93l7.5,10h-15Z" transform="translate(1325.75 -237.89) rotate(90)"/>
+                                             <text id="kW" class="cls-4" transform="translate(816.82 557.43) rotate(90)"><tspan x="0" y="0">kW</tspan></text>
+                                             </g>
+                                          </svg>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="flowTabItem2Content flowTabItem2ContentLast">
+                                       <div class="topTitle">
+                                          <div class="row align-items-end">
+                                             <div class="col-lg-12">
+                                                <div class="left">
+                                                   <h5>Power produced</h5>
+                                                   <h3>18 kW</h3>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="powerProduceIndicator text-center"> 
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270.851 90.973">
+                                             <path id="Path_386" data-name="Path 386" d="M3463.892-22302.605s-9.277-20.562-18.556-20.562-7.218,20.563-18.559,20.563-13.574-5.7-26.8-20.562-11-40.258-26.118-38.93c-15.12,1.359-18.558,49.211-34.365,44.352s-17.355-51.094-28.867-63.812c-11.514-12.7-6.874,15.133-17.184,12.961-10.31-2.141-11.167-28.117-24.055-21.617s-15.465,40.555-27.492,47.586c-12.028,7.047-3.959-18.883-17.776-18.492-16.595.367-9.985-22.219-28.661-20.437" transform="translate(-3194.364 22392.254)" fill="none" stroke="#86c28c" stroke-linecap="round" stroke-width="2"/>
+                                          </svg>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end energy flow area -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- all javascript load here -->
+   <script src="asset/js/vendor/jquery-3.3.1.min.js"></script>
+   <script src="asset/js/bootstrap.bundle.min.js"></script>
+   <script src="asset/js/custom.js"></script>
+</body>
+
+</html>

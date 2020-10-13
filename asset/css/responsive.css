@@ -1,0 +1,211 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+    #headerTop {
+        padding: 10px 0px;
+    }
+    #headerTop .headerTopMainContaier .headerTitle h1 {
+        font-size: 71px;
+    }
+    .logoArea a img {
+        width: 84%;
+    }
+    #headerTop .headerTopMainContaier {
+        padding: 0px 25px;
+    }
+    #resultsArea .resultMainContainer {
+        padding: 0px 25px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .leftTnk .svgGraph svg {
+        width: 112%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .middleFlow {
+        padding-top: 30px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .middleFlow .middleFlowItem svg{
+        width: 80% !important;
+        height: 195px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .leftTnk h4 {
+        margin-top: 17px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .leftTnk p {
+        font-size: 9px;
+        margin-top: 5px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .leftTnk .lineBar {
+        width: 130%;
+        border: 2px dashed #fff;
+        bottom: 35%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .middleFlow .middleFlowItem .lineBar2 {
+        width: 75%;
+        border: 2px dashed #fff;
+        left: 74%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .middleFlow .middleFlowItem .lineBar3 {
+        width: 77%;
+        border: 2px dashed #fff;
+        top: 30%;
+        left: 66%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .rightLastItem .lineBar4 {
+        width: 100%;
+        border: 2px dashed #fff;
+        bottom: 29%;
+        left: -89%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .rightLastItem .svgGraph .plug svg {
+        width: 80%;
+    }
+    #energyGflowArea .energyGflowContainer {
+        padding: 0px 25px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .kwMetterIndicator {
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .powerProduceIndicator {
+        margin-top: 13px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .batteryIndicator {
+        margin-bottom: 30px;
+        margin-top: 8px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .metterIndicator {
+        margin-top: 31px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .kwMetterIndicator svg {
+        width: 57%;
+    }
+}
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+    #headerTop {
+        padding: 10px 0px;
+    }
+    #headerTop .headerTopMainContaier .headerTitle h1 {
+        font-size: 71px;
+    }
+    .logoArea a img {
+        width: 84%;
+    }
+    #headerTop .headerTopMainContaier {
+        padding: 0px 25px;
+    }
+    #resultsArea .resultMainContainer {
+        padding: 0px 25px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .leftTnk .svgGraph svg {
+        width: 112%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .middleFlow {
+        padding-top: 30px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .middleFlow .middleFlowItem svg{
+        width: 80% !important;
+        height: 195px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .leftTnk h4 {
+        margin-top: 17px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .leftTnk p {
+        font-size: 9px;
+        margin-top: 5px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .leftTnk .lineBar {
+        width: 130%;
+        border: 2px dashed #fff;
+        bottom: 35%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .middleFlow .middleFlowItem .lineBar2 {
+        width: 75%;
+        border: 2px dashed #fff;
+        left: 74%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .middleFlow .middleFlowItem .lineBar3 {
+        width: 77%;
+        border: 2px dashed #fff;
+        top: 30%;
+        left: 66%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .rightLastItem .lineBar4 {
+        width: 100%;
+        border: 2px dashed #fff;
+        bottom: 29%;
+        left: -89%;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent .rightLastItem .svgGraph .plug svg {
+        width: 80%;
+    }
+    #energyGflowArea .energyGflowContainer {
+        padding: 0px 25px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .kwMetterIndicator {
+        margin-top: 9px;
+        margin-bottom: 0px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .powerProduceIndicator {
+        margin-top: 13px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .batteryIndicator {
+        margin-bottom: 30px;
+        margin-top: 8px;
+    }
+    #energyGflowArea .energyGflowContainer .enegyFlowTabContent .flowTabContent2 .flowTabItem2Content .metterIndicator {
+        margin-top: 31px;
+    }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+}
+
+
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

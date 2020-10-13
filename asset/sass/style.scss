@@ -1,0 +1,415 @@
+@import 'import/reset.scss';
+@import 'import/_color.scss';
+/*-- this is for typography --*/
+@import 'import/typography.scss';
+@import 'import/_comn.scss';
+
+
+
+
+
+
+// for gotum fonts
+@font-face {
+    font-family: mublack;
+    src: url(../font/Muli-Black.ttf);
+}
+
+@font-face {
+    font-family: bitter;
+    src: url(../font/Bitter-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: mr;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: mm;
+    src: url(../font/Montserrat-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: mlight;
+    src: url(../font/Montserrat-Light.ttf);
+}
+
+
+body{
+    background: $bodyColor;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------
+main code start here 
+-------------------------*/
+#headerTop{
+    padding: 50px 0px;
+    .headerTopMainContaier{
+        padding: 0px 70px;
+        .headerTitle{
+            h1{
+                font-family: mublack;
+                color: #fff;
+                font-size: 80px;
+            }
+        }
+    }
+}
+
+
+#resultsArea{
+    .resultMainContainer{
+        padding: 0px 70px;
+        .resultsAreaTop{
+            margin-bottom: 15px;
+            .leftTitile{
+                h3{
+                    color: #fff;
+                    font-family: roboto;
+                    font-size: 30px;
+                }
+            }
+            .rightTabBtn{
+                ul.nav{
+                    display: flex !important;
+                    justify-content: space-around;
+                    width: 190px;
+                    float: right;
+                    background: $mainColor;
+                    text-align: left;
+                    border-radius: 30px;
+                    position: relative;
+                    .animationPanel{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                        content: "";
+                        background: #15294C;
+                        border-radius: 30px;
+                        z-index: 0;
+                        border: 2px solid $mainColor;
+                    }
+                    li{
+                        display: inline-block;
+                        a{ 
+                           display: block;
+                           color: #fff;
+                           font-family: mublack;
+                           font-size: 13px;
+                           width: 93px;
+                           text-align: center;
+                           padding: 10px 0px;
+                           position: relative;
+                           z-index: 99999;
+                        }
+                    }
+                }
+                ul li:nth-child(2){
+                    text-align: center;
+                }
+            }
+        }
+        .resultsTabContentMain{
+            margin-top: 20px;
+            .item{
+                display: flex;
+                justify-content: flex-start;
+                background: #1C385D;
+                box-shadow: 0px 25px 30px rgba(0,0,0,0.1);
+                padding: 20px;
+                border-radius: 10px;
+                align-items: center;
+                .icon{
+                    width: 57px;
+                    height: 57px;
+                    background: #2E5065;
+                    text-align: center;
+                    line-height: 57px;
+                    border-radius: 10px;
+                    p{
+                        font-family: mm;
+                        font-size: 19px;
+                        color: #86C28C;
+                        span{
+                            font-size: 8px;
+                            margin-left: 4px;
+                        }
+                    }
+                }
+                .content{
+                    padding-left: 17px;
+                    p{
+                       font-family: mr;
+                       font-size: 12px;
+                       color: #fff; 
+                    }
+                    h4{
+                        margin-top: 5px;
+                        font-family: mm;
+                        font-size: 24px;
+                        color: #fff; 
+                    }
+                }
+            }
+            .itemLast{
+                .icon{
+                    line-height: 51px;
+                }
+            }
+        }
+    }
+}
+
+#energyGflowArea{
+    margin-top: 50px;
+    .energyGflowContainer{
+        padding: 0px 70px;
+        .topArea{
+            .leftTititle{
+                h3{
+                    font-family: roboto;
+                    font-size: 30px;
+                    color: #fff;
+                }
+            }
+            .rightTabBtn{
+                ul.nav{
+                    display: flex !important;
+                    justify-content: space-around;
+                    width: 190px;
+                    float: right;
+                    background: $mainColor;
+                    text-align: left;
+                    border-radius: 30px;
+                    position: relative;
+                    .animationPanel2{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                        content: "";
+                        background: #15294C;
+                        border-radius: 30px;
+                        z-index: 0;
+                        border: 2px solid $mainColor;
+                    }
+                    li{
+                        display: inline-block;
+                        a{ 
+                           display: block;
+                           color: #fff;
+                           font-family: mublack;
+                           font-size: 13px;
+                           width: 93px;
+                           text-align: center;
+                           padding: 10px 0px;
+                           position: relative;
+                           z-index: 99999;
+                        }
+                    }
+                }
+                ul li:nth-child(2){
+                    text-align: center;
+                }
+            }
+        }
+        .enegyFlowTabContent{
+            margin-top: 30px;
+            .flowTabContent{
+                .leftTnk{
+                    position: relative;
+                    z-index: 1;
+                    h4{
+                        font-family: roboto;
+                        font-size: 20px;
+                        color: #fff;
+                        margin-top: 34px;
+                    }
+                    p{
+                        font-family: mublack;
+                        font-size: 12px;
+                        color: $mainColor;
+                        margin-top: 10px;
+                    }
+                    .lineBar{
+                        width: 126%;
+                        border: 4px dashed #fff;
+                        position: absolute;
+                        bottom: 35%;
+                        z-index: -1;
+                    }
+                }
+                .middleFlow{
+                    .middleFlowItem{
+                        position: relative;
+                        .lineBar2{
+                            width: 79%;
+                            border: 4px dashed #fff;
+                            position: absolute;
+                            top: 31%;
+                            left: 68%;
+                            z-index: -1;
+                        }
+                        .lineBar3{
+                            width: 81%;
+                            border: 4px dashed #fff;
+                            position: absolute;
+                            top: 31%;
+                            left: 63%;
+                            z-index: -1;
+                        }
+                        h4{
+                            font-family: roboto;
+                            font-size: 20px;
+                            color: #fff;
+                            margin-top: 28px;
+                        }
+                    }
+                }
+                .rightLastItem{
+                    position: relative;
+                    .lineBar4{
+                        width: 100%;
+                        border: 4px dashed #fff;
+                        position: absolute;
+                        bottom: 31%;
+                        left: -90%;
+                        z-index: -1;
+                    }
+                    .svgGraph{
+                        .kwmetter{
+                            position: relative;
+                            left: -18px;
+                            svg{
+                                width: 100%;
+                            }
+                            h4{
+                                position: absolute;
+                                color: #fff;
+                                top: 44%;
+                                left: 50%;
+                                transform: translate(-50%,-50%);
+                                font-family: mm;
+                                font-size: 22px;
+                                color: #fff;
+                            }
+                        }
+                        .plug{
+                            margin-top: -60px;
+                            svg{
+                                width: 65%;
+                            }
+                            h4{
+                                color: #fff;
+                                font-family: roboto;
+                                font-size: 20px;
+                                margin-top: 38px;
+                                margin-left: -40px;
+                            }
+                        }
+                    }
+                }
+            }
+            .flowTabContent2{
+                .flowTabItem2Content{
+                    background: #1C385D;
+                    border-radius: 10px;
+                    box-shadow: 0px 25px 30px rgba(0,0,0,0.1);
+                    padding: 27px 30px;
+                    .topTitle{
+                        .left{
+                            h5{
+                                font-family: mm;
+                                font-size: 12px;
+                                color: #fff;
+                            }
+                            h3{
+                                font-family: mm;
+                                font-size: 24px;
+                                color: #fff;
+                                margin-top: 5px;
+                            }
+                        }
+                        .right{
+                            p{
+                                font-family: mlight;
+                                font-size: 12px;
+                                color: $mainColor;
+                            }
+                        }
+                    }
+                    .metterIndicator{
+                        margin-top: 30px;
+                        svg{
+                            width: 73%;
+                            height: 100%;
+                        }
+                    }
+                    .batteryIndicator{
+                        margin-bottom: 30px;
+                        margin-top: 10px;
+                        svg{
+                            width: 31%;
+                        }
+                    }
+                    .kwMetterIndicator{
+                        margin-top: 35px;
+                        margin-bottom: 40px;
+                    }
+                    .powerProduceIndicator{
+                        margin-top: 35px;
+                        padding-bottom: 42px;
+                    }
+                }
+                .flowTabItem2ContentLast{
+                    padding: 0px;
+                    .topTitle{
+                        padding: 27px 30px;
+                    }
+                }
+                .warnignText{
+                    margin-top: 30px;
+                   p{
+                        color: $mainColor;
+                        font-family: mublack;
+                        font-size: 12px;
+                   }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
